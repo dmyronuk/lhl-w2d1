@@ -1,9 +1,3 @@
-var requestOptions = {
-  host: 'sytantris.github.io',
-  path: '/http-examples/step3.html'
-};
-
-
 function getHTML (options, callback) {
   var https = require('https');
   https.get(options, printHTML);
