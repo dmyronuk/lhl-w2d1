@@ -11,9 +11,7 @@ function getAndPrintHTML () {
   /* Add your code here */
   https.get(requestOptions, function(res){
     res.on("data", function(chunk){
-      console.log(chunk.toString())
       outString += chunk.toString();
-      //console.log("WHeeeeee", outString);
     })
 
      res.on("end", function(){
