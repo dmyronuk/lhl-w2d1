@@ -3,5 +3,5 @@ var requestOptions = {
   path: '/http-examples/step3.html'
 };
 
-var pHTML = require("./print-html-step-5.js");
+var pHTML = require("./http-functions.js");
 pHTML.getHTML(requestOptions);
